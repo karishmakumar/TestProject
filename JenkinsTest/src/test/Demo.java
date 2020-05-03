@@ -10,7 +10,6 @@ public class Demo {
 		
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\JenkinsTest\\driver\\chromedriver.exe");
 		 WebDriver driver=new ChromeDriver();  
-		 
 		 driver.navigate().to();
 		 System.out.println("welcome to learning");
 		 driver.quit();
